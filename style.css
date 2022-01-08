@@ -1,0 +1,35 @@
+th,td{
+    border: 1px solid #693939;
+    padding: 5px;
+}
+table{
+    border-collapse: collapse;
+    font-size: 24px;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 20px;
+    padding: 3px 5px;
+}
+nav li:hover{
+    background: blanchedalmond;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+nav ul li:hover ul{
+    display: block;
+}
+.dropsdown{
+    display: none;
+    position: absolute;
+    background: #8b8b8b;
+}
+section{
+    margin: 100px 0px;
+}
